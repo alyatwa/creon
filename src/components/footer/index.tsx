@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               loading="lazy"
               width={16}
               height={16}
-              src="/assets/telegram.svg"
+              src="/assets/footer/telegram.svg"
             />
           </Link>
 
@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
               loading="lazy"
               width={18}
               height={18}
-              src="/assets/gitbook.svg"
+              src="/assets/footer/gitbook.svg"
             />
           </Link>
 
@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
               loading="lazy"
               width={16}
               height={16}
-              src="/assets/twitter.svg"
+              src="/assets/footer/twitter.svg"
             />
           </Link>
         </div>
