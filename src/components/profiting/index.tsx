@@ -7,18 +7,19 @@ export const Profiting = () => {
       <h3 className="mt-3 text-right w-full font-monument text-2xl lg:text-2xl xl:text-3xl font-normal leading-[120%] uppercase bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
         AI Innovation &amp; Decentralization
       </h3>
-      <div className="mt-11 mb-0 flex flex-col lg:flex-row justify-between relative overflow-hidden gap-6">
+      <div className="mt-11 mb-0 flex flex-col lg:flex-row justify-between relative overflow-hidden gap-6 profiting-video">
         <video
-          className="w-full lg:w-[34rem] xl:w-full h-80 object-cover rounded-md"
+          className="w-full h-96 lg:w-[34rem] xl:w-full object-cover rounded-md"
           poster="/assets/profiting/profit-video.png"
           autoPlay
+          muted
         >
           <source
-            src="https://github.com/niftables-og/front-end-tech-test/raw/main/videos/creon-logo.mp44"
+            src="https://github.com/niftables-og/front-end-tech-test/raw/main/videos/creon-logo.mp4"
             type="video/mp4"
           />
         </video>
-        <div className="w-full lg:w-96 px-4 flex flex-col justify-center space-y-4 py-16 border-solid border-l border-r border-[#13171d]">
+        <div className="w-full lg:w-96 px-4 flex flex-col justify-center space-y-4 py-16 border-solid border-l border-r border-[#13171d] z-10">
           <h4 className="font-satoshi text-sm normal-case font-bold leading-[130%] text-white">
             The dynamic community driven business model of the future
           </h4>

@@ -44,7 +44,7 @@ body {
 }
 
 .nav-links .nav-link:not(:first-child):after {
-  @apply content-["SOON"] bg-black h-max w-auto rounded-xl flex items-center justify-center px-1 pb-[0.1rem] text-[#ab23ff] font-satoshi text-[0.45rem] font-bold leading-[110%];
+  @apply content-["SOON"] bg-black h-max w-auto rounded-xl flex items-center justify-center ml-[0.1rem] px-1 py-[0.1rem] text-[#ab23ff] font-satoshi text-[0.45rem] font-bold leading-[110%];
 }
 
 .subtitle::before {
@@ -60,6 +60,11 @@ body {
 .coming-soon:before {
   @apply flex absolute right-4 top-0 transform -translate-y-1/2 px-1 py-[0.12rem] rounded-full bg-white text-black text-center font-satoshi text-[0.4rem] lg:text-[0.6rem] font-bold leading-[110%];
   content: "COMING SOON";
+}
+
+.profiting-video::before {
+  @apply block absolute w-full h-full rounded-md bg-gradient-to-b from-blue-500 to-purple-500 mix-blend-soft-light rotate-180;
+  content: "";
 }
 
 .pass-video::before {
@@ -87,8 +92,6 @@ img,
 li,
 nav,
 ol,
-p,
-q,
 section,
 span,
 u,

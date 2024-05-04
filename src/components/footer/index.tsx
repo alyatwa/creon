@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
       </Link>
       <div className="absolute left-0 bottom-0 w-full">
         <div className="w-full h-full relative video-warp">
-          <video className="w-full h-full object-cover">
+          <video className="w-full h-full object-cover" autoPlay muted>
             <source src="/assets/footer/roadmap-video.mp4" type="video/mp4" />
           </video>
         </div>

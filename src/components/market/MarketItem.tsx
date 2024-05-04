@@ -15,6 +15,7 @@ export const MarketItem: React.FC<MarketItemProps> = ({ item }) => {
           {item.description}
         </p>
       </div>
+
       <div className="flex-shrink-0 hidden md:block relative w-64 h-auto rounded-r-md overflow-hidden">
         <Image
           alt={item.title}

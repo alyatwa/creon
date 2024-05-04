@@ -40,6 +40,8 @@ export const Pass = () => {
       </div>
       <div className="relative w-[464px] h-[464px] md:min-w-96 pass-video">
         <video
+        autoPlay
+        muted
           className="w-full h-full object-cover"
           poster="/assets/pass/poster.png"
         >

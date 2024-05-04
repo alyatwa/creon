@@ -4,7 +4,7 @@ export const Main = () => {
   return (
     <main className="relative flex flex-col gap-4 justify-end px-6 md:px-32 pb-20">
       <div className="absolute left-0 top-0 w-full h-full z-0 object-cover">
-        <video className="w-full h-full z-0 object-cover" autoPlay>
+        <video className="w-full h-full z-0 object-cover" autoPlay muted>
           <source
             src="/assets/main/main-background-video.mp4"
             type="video/mp4"
