@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Main } from "@/components/main-hero";
 import { Market } from "@/components/market";
+import { Pass } from "@/components/pass";
 import { Profiting } from "@/components/profiting";
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
       <Header />
       <div className="flex flex-col justify-between min-h-screen">
         <Main />
-        <Profiting/>
+        <Pass />
+        <Profiting />
         <ComingSoon />
         <Market />
         <Footer />

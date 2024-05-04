@@ -61,32 +61,35 @@ body {
   @apply flex absolute right-4 top-0 transform -translate-y-1/2 px-1 py-[0.12rem] rounded-full bg-white text-black text-center font-satoshi text-[0.4rem] lg:text-[0.6rem] font-bold leading-[110%];
   content: "COMING SOON";
 }
+
+.pass-video::before {
+  @apply top-0 transform -translate-x-1/2 -translate-y-1/2 left-1/2 block absolute w-96 h-20 flex-shrink-0 bg-black filter blur-[34px] z-10;
+  content: "";
+}
+
+.pass-video::after {
+  @apply bottom-0 transform -translate-x-1/2 translate-y-1/2 left-1/2 block absolute w-96 h-20 flex-shrink-0 bg-black filter blur-[34px] z-10;
+  content: "";
+}
+
 a,
-aside,
 b,
 body,
 div,
 footer,
-form,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-html,
 i,
 img,
-label,
 li,
-menu,
 nav,
 ol,
 p,
-pre,
 q,
 section,
-small,
 span,
 u,
 ul,
@@ -101,11 +104,9 @@ video {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-aside,
 footer,
 header,
 menu,
-nav,
 section {
   display: block;
 }
@@ -115,12 +116,6 @@ body {
 ol,
 ul {
   list-style: none;
-}
-
-q:after,
-q:before {
-  content: "";
-  content: none;
 }
 
 video {
@@ -144,15 +139,7 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
-figure,
-form {
-  margin: 0;
-}
-
-button,
-input,
-select,
-textarea {
+button {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
@@ -174,7 +161,6 @@ input::-moz-focus-inner {
 
 button,
 html,
-input,
 select,
 textarea {
   color: #222;

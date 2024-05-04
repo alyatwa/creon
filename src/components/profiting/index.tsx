@@ -1,6 +1,6 @@
 export const Profiting = () => {
   return (
-    <section className="px-6 sm:px-32 py-16 ">
+    <section className="px-6 sm:px-32 py-8 ">
       <h2 className="text-white font-monument font-normal text-3xl lg:text-4xl xl:text-5xl uppercase leading-[110%]">
         Profiting Through
       </h2>

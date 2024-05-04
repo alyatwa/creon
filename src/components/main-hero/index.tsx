@@ -19,7 +19,7 @@ export const Main = () => {
         src="/assets/main/main-video.png"
       />
 
-      <h2 className="text-white font-monument text-lg md:text-3xl lg:text-5xl leading-[110%] uppercase z-[1] mt-72 lg:mt-96 mx-0">
+      <h2 className="text-white font-monument text-lg sm:text-3xl md:text-xl xl:text-5xl leading-[110%] uppercase z-[1] mt-72 lg:mt-96 mx-0">
         The world's first platform for Tokenizing AI blockchain projects
       </h2>
 

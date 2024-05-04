@@ -63,7 +63,7 @@ export const Footer: React.FC = () => {
           height={18}
           className="w-[3.6rem]"
           decoding="async"
-          src="/assets/niftables.svg"
+          src="/assets/footer/niftables.svg"
         />
       </Link>
       <div className="absolute left-0 bottom-0 w-full">
